@@ -1,0 +1,15 @@
+name: AI Text Summarizer
+framework: fastapi
+entry_point: main.py
+
+requirements:
+  - fastapi
+  - uvicorn
+  - openai
+
+run:
+  local: uvicorn main:app --reload
+
+capabilities:
+  - text summarization
+  - NLP
